@@ -21,8 +21,8 @@ public class LawnMower {
           
           while((first = r.readLine()).charAt(0) != '0')
           {
-              String[] params = first.split(" ");
               String[] length = r.readLine().split(" ");
+              String[] params = first.split(" ");
               String[] width = r.readLine().split(" ");
               double mowerFull = Double.parseDouble(params[2]);
               double mowerHalf = mowerFull / 2;
